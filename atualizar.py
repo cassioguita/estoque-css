@@ -14,7 +14,7 @@ print(f"Produto: {produto_antes[0]} | Quantidade Atual: {produto_antes[1]}")
 # Tradução: "Atualize a tabela produtos, defina a qtd_atual como 25 ONDE o nome seja Plástico Bolha"
 cursor.execute('''
     UPDATE produtos 
-    SET qtd_atual = 25 
+    SET qtd_atual = 12
     WHERE nome LIKE '%Plástico Bolha%'
 ''')
 
